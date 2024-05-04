@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
 
 export const colors = {
   orangeRed: '#E66767',
@@ -19,4 +19,9 @@ export const GlobalCss = createGlobalStyle`
     background-color: ${colors.orangeLight};
     color: ${colors.orangeRed};
   }
+`
+
+export const Container = styled.div`
+  max-width: 100%;
+  width: 100%;
 `
