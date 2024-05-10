@@ -1,15 +1,14 @@
 import styled from 'styled-components'
 import { colors } from '../../styles'
 
-import { Props } from '.'
-
-export const TagContainer = styled.div<Props>`
+export const TagContainer = styled.div`
   background-color: ${colors.orangeRed};
-  colors: ${colors.creamWhite};
-  font-size: 12px;
-  font-weight: 700;
+  color: ${colors.creamWhite};
+  font-size: 14px;
+  font-weight: bold;
   align-items: center;
   padding: 6px 4px;
   border-radius: 8px;
-  display: inline-block;
+  display: block;
+  margin: 8px;
 `

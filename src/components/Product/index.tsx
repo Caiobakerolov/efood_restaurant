@@ -1,3 +1,4 @@
+import Button from '../Button'
 import Tag from '../Tag'
 import { Card, Description, Title, Infos } from './styles'
 
@@ -19,6 +20,9 @@ const Product = ({ image, title, description, infos }: Props) => (
       </Infos>
       <Title>{title}</Title>
       <Description>{description}</Description>
+      <Button type="link" to="/" title="Know more">
+        Know more
+      </Button>
     </Card>
   </>
 )

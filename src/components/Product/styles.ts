@@ -13,7 +13,9 @@ export const Card = styled.div`
   position: relative;
 
   ${TagContainer} {
-    margin-right: 8px;
+    position: absolute;
+    top: 10px;
+    display: flex;
   }
 
   img {
@@ -37,7 +39,7 @@ export const Description = styled.p`
 `
 
 export const Infos = styled.div`
-  position: absolute:
-  top: 16px;
-  right: 16px;
+  position: absolute;
+  top: 8px;
+  right: 80px;
 `
