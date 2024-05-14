@@ -10,5 +10,5 @@ export const TagContainer = styled.div`
   padding: 6px 4px;
   border-radius: 8px;
   display: block;
-  margin: 8px;
+  margin: 6px;
 `

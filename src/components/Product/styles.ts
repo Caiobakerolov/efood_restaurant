@@ -4,19 +4,17 @@ import { TagContainer } from '../Tag/styles'
 
 export const Card = styled.div`
   background-color: ${colors.white};
-  border-radius: 8px;
   border: 1px solid ${colors.orangeRed};
-  width: 470px;
-  height: 400px;
-  display: inline-block;
-  margin-left: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: relative;
-  margin-bottom: 48px;
+  border-radius: 8px;
+  width: 470px;
 
   ${TagContainer} {
     position: absolute;
-    top: 10px;
-    display: flex;
+    top: 6px;
   }
 
   img {
@@ -36,11 +34,10 @@ export const Description = styled.p`
   line-height: 22px;
   display: block;
   padding: 8px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 `
 
 export const Infos = styled.div`
   position: absolute;
-  top: 8px;
-  right: 80px;
+  top: 6px;
 `
