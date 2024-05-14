@@ -25,4 +25,5 @@ export const ButtonLink = styled(Link)`
   padding: 4px 6px;
   text-decoration: none;
   border-radius: 8px;
+  margin-left: 8px;
 `

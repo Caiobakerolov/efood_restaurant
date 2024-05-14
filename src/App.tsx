@@ -1,14 +1,23 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Header from './components/Header'
 import { GlobalCss, Container } from './styles'
-import ProductsList from './components/ProductsList'
+import Home from './pages/Home'
+import Meals from './pages/Meals'
 
 const routes = createBrowserRouter([
   {
     path: '/',
     element: (
       <>
-        <ProductsList />
+        <Home />
+      </>
+    )
+  },
+  {
+    path: '/meals',
+    element: (
+      <>
+        <Meals />
       </>
     )
   }

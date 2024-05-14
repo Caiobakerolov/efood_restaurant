@@ -20,7 +20,7 @@ const Product = ({ image, title, description, infos }: Props) => (
       </Infos>
       <Title>{title}</Title>
       <Description>{description}</Description>
-      <Button type="link" to="/" title="Know more">
+      <Button type="link" to="/meals" title="Know more">
         Know more
       </Button>
     </Card>
