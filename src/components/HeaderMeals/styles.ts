@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const HeaderBar = styled.header`
+export const HeaderMeal = styled.header`
   background-image: url(https://efood-alpha-nine.vercel.app/static/media/fundoHero.784e90d06596c838a246.png);
   display: flex;
   flex-direction: column;

@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { TagContainer } from '../Tag/styles'
 import { Props } from '.'
 
 export const Container = styled.section<Omit<Props, 'dishes'>>`
@@ -14,10 +13,6 @@ export const List = styled.ul`
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 60px;
   padding-top: 100px;
-
-  ${TagContainer} {
-    position: relative;
-  }
 
   img {
     width: 100%;
