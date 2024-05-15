@@ -1,5 +1,6 @@
 import ProductsListMeals from '../../components/ProductsListMeals'
 import DishPizza from '../../models/DishPizza'
+import HeaderMeals from '../../components/HeaderMeals'
 import pizza from '../../assets/images/pizza.png'
 
 const meals: DishPizza[] = [
@@ -49,6 +50,7 @@ const meals: DishPizza[] = [
 
 const Meals = () => (
   <>
+    <HeaderMeals />
     <ProductsListMeals dishes={meals} />
   </>
 )

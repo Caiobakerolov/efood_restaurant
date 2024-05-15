@@ -1,6 +1,6 @@
 import ProductsList from '../../components/ProductsList'
 import Dish from '../../models/Dish'
-
+import Header from '../../components/Header'
 import sushi from '../../assets/images/sushi.png'
 import pasta from '../../assets/images/pasta.png'
 
@@ -81,6 +81,7 @@ const meals: Dish[] = [
 
 const Home = () => (
   <>
+    <Header />
     <ProductsList dishes={meals} />
   </>
 )

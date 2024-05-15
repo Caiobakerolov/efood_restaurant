@@ -1,6 +1,5 @@
 import { BrowserRouter } from 'react-router-dom'
 import { GlobalCss, Container } from './styles'
-import Header from './components/Header'
 import Rout from './routes'
 import Footer from './components/Footer'
 
@@ -9,9 +8,8 @@ function App() {
     <BrowserRouter>
       <GlobalCss />
       <Container>
-        <Header />
+        <Rout />
       </Container>
-      <Rout />
       <Footer />
     </BrowserRouter>
   )
