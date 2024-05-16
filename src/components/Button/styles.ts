@@ -2,28 +2,36 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import { colors } from '../../styles'
 
-export const ButtonContainer = styled.button`
-  background-color: ${colors.orangeRed};
-  colors: ${colors.creamWhite};
+export const ButtonContainer = styled.button<{ variant: string }>`
   font-size: 14px;
   font-weight: 700;
-  width: 82px;
+  background-color: ${({ variant }) =>
+    variant === 'fullWidth' ? colors.creamWhite : colors.orangeRed};
+  color: ${({ variant }) =>
+    variant === 'fullWidth' ? colors.orangeRed : colors.creamWhite};
+  width: ${({ variant }) => (variant === 'fullWidth' ? '90%' : '82px')};
+  margin: ${({ variant }) =>
+    variant === 'fullWidth' ? '8px auto 8px' : '8px 0 80px 8px'};
   height: 24px;
-  align-items: center;
   padding: 4px 6px;
   border-radius: 8px;
+  text-align: center;
+  align-items: center;
 `
 
-export const ButtonLink = styled(Link)`
-  background-color: ${colors.orangeRed};
-  color: ${colors.creamWhite};
+export const ButtonLink = styled(Link)<{ variant: string }>`
   font-size: 14px;
   font-weight: 700;
-  width: 90px;
-  text-align: center;
+  background-color: ${({ variant }) =>
+    variant === 'fullWidth' ? colors.creamWhite : colors.orangeRed};
+  color: ${({ variant }) =>
+    variant === 'fullWidth' ? colors.orangeRed : colors.creamWhite};
+  width: ${({ variant }) => (variant === 'fullWidth' ? '90%' : '90px')};
+  margin: ${({ variant }) =>
+    variant === 'fullWidth' ? '8px auto 8px' : '8px 0 8px 8px'};
   padding: 4px 6px;
-  text-decoration: none;
   border-radius: 8px;
-  margin-left: 8px;
-  margin-bottom: 16px;
+  text-decoration: none;
+  text-align: center;
+  text-align: center;
 `

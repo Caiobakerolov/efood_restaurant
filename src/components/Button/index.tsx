@@ -6,12 +6,25 @@ type Props = {
   to?: string
   onClick?: () => void
   children: string
+  variant?: 'default' | 'fullWidth'
 }
 
-const Button = ({ type, title, to, onClick, children }: Props) => {
+const Button = ({
+  type,
+  title,
+  to,
+  onClick,
+  children,
+  variant = 'default'
+}: Props) => {
   if (type === 'button') {
     return (
-      <ButtonContainer type="button" title={title} onClick={onClick}>
+      <ButtonContainer
+        type="button"
+        title={title}
+        onClick={onClick}
+        variant={variant}
+      >
         {children}
       </ButtonContainer>
     )
@@ -19,7 +32,7 @@ const Button = ({ type, title, to, onClick, children }: Props) => {
 
   return (
     <>
-      <ButtonLink to={to as string} title={title}>
+      <ButtonLink to={to as string} title={title} variant={variant}>
         {children}
       </ButtonLink>
     </>

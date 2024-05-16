@@ -19,7 +19,6 @@ export const Title = styled.h3`
   color: ${colors.creamWhite};
   font-size: 18px;
   font-weight: 700;
-  display: block;
   padding: 8px;
 `
 
@@ -27,7 +26,6 @@ export const Description = styled.p`
   color: ${colors.creamWhite};
   font-size: 14px;
   line-height: 22px;
-  display: block;
   padding: 8px;
   margin-bottom: 8px;
 `

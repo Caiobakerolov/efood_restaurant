@@ -13,7 +13,7 @@ const ProductMeals = ({ image, title, description }: Props) => (
       <img src={image} alt={title} />
       <Title>{title}</Title>
       <Description>{description}</Description>
-      <Button type="link" to="/" title="Add to Cart">
+      <Button type="link" to="/" title="Add to Cart" variant="fullWidth">
         Add to Cart
       </Button>
     </Card>
