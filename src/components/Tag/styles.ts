@@ -9,6 +9,6 @@ export const TagContainer = styled.div`
   align-items: center;
   padding: 6px 4px;
   border-radius: 8px;
-  display: block;
+  display: inline-block;
   margin: 6px;
 `

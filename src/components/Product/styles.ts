@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { colors } from '../../styles'
-import { TagContainer } from '../Tag/styles'
 
 export const Card = styled.div`
   background-color: ${colors.white};
@@ -11,11 +10,7 @@ export const Card = styled.div`
   position: relative;
   border-radius: 8px;
   width: 470px;
-
-  ${TagContainer} {
-    position: absolute;
-    top: 6px;
-  }
+  position: relative;
 
   img {
     border-radius: 8px 8px 0 0;
@@ -40,4 +35,5 @@ export const Description = styled.p`
 export const Infos = styled.div`
   position: absolute;
   top: 6px;
+  right: 10px;
 `
