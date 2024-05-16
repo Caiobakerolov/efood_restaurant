@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { Container, BackgroundImage, HeaderMeal } from './styles'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { Container, BackgroundImage, HeaderMeal, StyledIcon } from './styles'
 import logo from '../../assets/images/logo.svg'
 
 const HeaderMeals = () => (
@@ -10,7 +11,10 @@ const HeaderMeals = () => (
         <Link to="/">
           <img src={logo} alt="Efood" />
         </Link>
-        <p> 0 - Product in cart</p>
+        <p>
+          0 - Product in cart
+          <StyledIcon icon={faShoppingCart} />
+        </p>
       </Container>
       <BackgroundImage>
         <div className="image-wrapper" />

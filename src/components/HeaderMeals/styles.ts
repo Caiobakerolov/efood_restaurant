@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import styled from 'styled-components'
 import pasta from '../../assets/images/pasta.png'
 import { colors } from '../../styles'
@@ -74,4 +75,8 @@ export const BackgroundImage = styled.div`
       font-weight: 100;
     }
   }
+`
+
+export const StyledIcon = styled(FontAwesomeIcon)`
+  margin-left: 8px;
 `
