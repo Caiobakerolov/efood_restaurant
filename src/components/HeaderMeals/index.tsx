@@ -20,7 +20,7 @@ const HeaderMeals = () => (
         <div className="image-wrapper" />
         <div className="description">
           <p>Italiana</p>
-          <h2>La Dolce Vita Trattoria</h2>
+          <h3>La Dolce Vita Trattoria</h3>
         </div>
       </BackgroundImage>
     </HeaderMeal>

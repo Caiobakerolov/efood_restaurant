@@ -9,19 +9,14 @@ export const HeaderMeal = styled.header`
   img {
     width: 125px;
     height: 57px;
-    margin-top: 40px;
+    margin-top: 30px;
   }
 
-  h1 {
-    font-size: 36px;
-    font-weight: 900;
-    width: 539px;
-    height: 84px;
-    margin: 0 auto;
-    text-align: center;
+  h2 {
+    font-size: 18px;
+    font-weight: bold;
     line-height: 42px;
-    margin-top: 100px;
-    margin-bottom: 40px;
+    padding-top: 30px;
   }
 `
 
@@ -40,8 +35,6 @@ export const BackgroundImage = styled.div`
 
   .image-wrapper {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     background-image: url(${pasta});
@@ -51,8 +44,6 @@ export const BackgroundImage = styled.div`
     &::before {
       content: '';
       position: absolute;
-      top: 0;
-      left: 0;
       width: 100%;
       height: 100%;
       background-color: rgba(0, 0, 0, 0.5);
@@ -61,7 +52,6 @@ export const BackgroundImage = styled.div`
 
   .description {
     position: relative;
-    z-index: 1;
     color: ${colors.white};
     font-size: 32px;
     display: flex;
@@ -69,14 +59,18 @@ export const BackgroundImage = styled.div`
     padding-top: 32px;
     gap: 128px;
     margin-left: 380px;
-    font-weight: 700;
 
     p {
       font-weight: 100;
+    }
+
+    h3 {
+      font-weight: 700;
     }
   }
 `
 
 export const StyledIcon = styled(FontAwesomeIcon)`
   margin-left: 8px;
+  padding-top: 30px;
 `
