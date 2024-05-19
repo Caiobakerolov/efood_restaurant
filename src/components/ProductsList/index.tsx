@@ -16,6 +16,7 @@ const ProductsList = ({ dishes }: Props) => (
               key={dish.id}
               image={dish.image}
               infos={dish.infos}
+              assessment={dish.assessment}
               title={dish.title}
               description={dish.description}
             />

@@ -10,7 +10,7 @@ export const Container = styled.section<Omit<Props, 'dishes'>>`
 
 export const List = styled.ul`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 60px;
   padding-top: 100px;
 

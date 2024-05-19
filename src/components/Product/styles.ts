@@ -37,3 +37,17 @@ export const Infos = styled.div`
   top: 6px;
   right: 10px;
 `
+
+export const Assessment = styled.p`
+  font-size: 18px;
+  font-weight: bold;
+  color: ${colors.orangeRed};
+  padding: 8px;
+  display: flex;
+  gap: 8px;
+`
+
+export const Information = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
