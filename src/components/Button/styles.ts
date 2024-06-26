@@ -14,7 +14,6 @@ export const ButtonContainer = styled.button<{ variant: string }>`
     variant === 'fullWidth' ? '8px auto 8px' : '8px 0 80px 8px'};
   height: 24px;
   padding: 4px 6px;
-  border-radius: 8px;
   text-align: center;
   align-items: center;
 `
@@ -30,7 +29,6 @@ export const ButtonLink = styled(Link)<{ variant: string }>`
   margin: ${({ variant }) =>
     variant === 'fullWidth' ? '8px auto 8px' : '8px 0 8px 8px'};
   padding: 4px 6px;
-  border-radius: 8px;
   text-decoration: none;
   text-align: center;
   text-align: center;

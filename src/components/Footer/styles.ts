@@ -49,4 +49,5 @@ export const Description = styled.p`
   &::after {
     content: 'lies entirely with the contracted establishment.';
     display: block;
+  }
 `

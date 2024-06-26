@@ -7,12 +7,7 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  border-radius: 8px;
   width: 470px;
-
-  img {
-    border-radius: 8px 8px 0 0;
-  }
 `
 
 export const Title = styled.h3`

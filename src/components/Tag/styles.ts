@@ -8,7 +8,6 @@ export const TagContainer = styled.div`
   font-weight: bold;
   align-items: center;
   padding: 6px 4px;
-  border-radius: 8px;
   display: inline-block;
   margin: 6px;
 `

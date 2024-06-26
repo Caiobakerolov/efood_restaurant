@@ -15,7 +15,10 @@ export const List = styled.ul`
   padding-top: 100px;
 
   img {
-    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 12px;
+    width: 95%;
     height: auto;
   }
 `

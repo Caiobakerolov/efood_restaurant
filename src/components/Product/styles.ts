@@ -3,18 +3,13 @@ import { colors } from '../../styles'
 
 export const Card = styled.div`
   background-color: ${colors.white};
-  border: 1px solid ${colors.orangeRed};
+  box-shadow: 0 0 0 1px ${colors.orangeRed};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  border-radius: 8px;
   width: 470px;
   position: relative;
-
-  img {
-    border-radius: 8px 8px 0 0;
-  }
 `
 
 export const Title = styled.h3`
