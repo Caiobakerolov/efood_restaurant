@@ -3,7 +3,7 @@ import { colors } from '../../styles'
 
 export const Card = styled.div`
   background-color: ${colors.white};
-  box-shadow: 0 0 0 1px ${colors.orangeRed};
+  border: 1px solid ${colors.orangeRed};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
