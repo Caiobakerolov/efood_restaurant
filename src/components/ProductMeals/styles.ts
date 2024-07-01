@@ -7,20 +7,21 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  width: 470px;
+  width: 320px;
+  height: 338px;
 `
 
 export const Title = styled.h3`
   color: ${colors.creamWhite};
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 900;
   padding: 8px;
 `
 
 export const Description = styled.p`
   color: ${colors.creamWhite};
   font-size: 14px;
+  font-weight: 400;
   line-height: 22px;
   padding: 8px;
-  margin-bottom: 8px;
 `

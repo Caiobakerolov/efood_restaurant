@@ -12,10 +12,10 @@ export const List = styled.ul`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 60px;
-  padding-top: 100px;
+  padding-top: 80px;
 
   img {
-    width: 100%;
-    height: auto;
+    width: 470px;
+    height: 217px;
   }
 `

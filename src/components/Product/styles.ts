@@ -8,7 +8,8 @@ export const Card = styled.div`
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  width: 470px;
+  width: 472px;
+  height: 398px;
   position: relative;
 `
 
@@ -20,11 +21,11 @@ export const Title = styled.h3`
 `
 
 export const Description = styled.p`
+  font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   display: block;
   padding: 8px;
-  margin-bottom: 8px;
 `
 
 export const Infos = styled.div`

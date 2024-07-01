@@ -30,13 +30,13 @@ export const Container = styled.div`
 export const BackgroundImage = styled.div`
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 280px;
   margin-top: 64px;
 
   .image-wrapper {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 280px;
     background-image: url(${pasta});
     background-size: cover;
     background-position: center;
@@ -56,16 +56,32 @@ export const BackgroundImage = styled.div`
     font-size: 32px;
     display: flex;
     flex-direction: column;
-    padding-top: 32px;
+    padding-top: 25px;
     gap: 128px;
     margin-left: 380px;
 
     p {
+      font-size: 32px;
       font-weight: 100;
+      line-height: 38px;
+      width: 101px;
+      height: 33.25px;
+      top: 187px;
+      left: 170px;
+      gap: 0px;
+      opacity: 0px;
     }
 
     h3 {
-      font-weight: 700;
+      font-size: 32px;
+      font-weight: 900;
+      line-height: 38px;
+      width: 676px;
+      height: 33.25px;
+      top: 376.75px;
+      left: 170px;
+      gap: 0px;
+      opacity: 0px;
     }
   }
 `

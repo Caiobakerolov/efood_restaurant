@@ -5,6 +5,8 @@ export const HeaderBar = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 2032px;
+  height: 384px;
 
   img {
     width: 125px;
@@ -15,12 +17,12 @@ export const HeaderBar = styled.header`
   h1 {
     font-size: 36px;
     font-weight: 900;
-    width: 539px;
+    width: 525px;
     height: 84px;
     margin: 0 auto;
     text-align: center;
     line-height: 42px;
-    margin-top: 100px;
+    margin-top: 139px;
     margin-bottom: 40px;
   }
 `

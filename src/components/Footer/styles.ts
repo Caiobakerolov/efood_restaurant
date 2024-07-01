@@ -4,7 +4,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   background-color: ${colors.creamWhite};
   max-width: 100%;
-  height: auto;
+  height: 298px;
 
   div {
     padding-top: 40px;
@@ -14,6 +14,8 @@ export const Container = styled.div`
     display: block;
     justify-content: center;
     margin: 0 auto;
+    width: 125px;
+    height: 57px;
   }
 
   p {
@@ -42,8 +44,7 @@ export const Description = styled.p`
   font-size: 12px;
   line-height: 12px;
   text-align: center;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 40px;
   margin-bottom: 16px;
 
   &::after {

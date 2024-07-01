@@ -12,7 +12,7 @@ const meals: Dish[] = [
     title: 'Hioki Sushi',
     assessment: '4.9',
     description:
-      'Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão sem sair do lar com nosso delivery!'
+      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const meals: Dish[] = [
     title: 'La Dolce Vita Trattoria',
     assessment: '4.9',
     description:
-      'Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão sem sair do lar com nosso delivery!'
+      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const meals: Dish[] = [
     title: 'La Dolce Vita Trattoria',
     assessment: '4.9',
     description:
-      'Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão sem sair do lar com nosso delivery!'
+      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const meals: Dish[] = [
     title: 'La Dolce Vita Trattoria',
     assessment: '4.9',
     description:
-      'Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão sem sair do lar com nosso delivery!'
+      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const meals: Dish[] = [
     title: 'La Dolce Vita Trattoria',
     assessment: '4.9',
     description:
-      'Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão sem sair do lar com nosso delivery!'
+      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const meals: Dish[] = [
     title: 'La Dolce Vita Trattoria',
     assessment: '4.9',
     description:
-      'Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão sem sair do lar com nosso delivery!'
+      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const meals: Dish[] = [
     title: 'La Dolce Vita Trattoria',
     assessment: '4.9',
     description:
-      'Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão sem sair do lar com nosso delivery!'
+      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   },
   {
     id: 8,
@@ -75,7 +75,7 @@ const meals: Dish[] = [
     title: 'La Dolce Vita Trattoria',
     assessment: '4.9',
     description:
-      'Peça já o melhor da culinária japonesa no conforto da sua casa! Sushis frescos, sashimis deliciosos e pratos quentes irresistíveis. Entrega rápida, embalagens cuidadosas e qualidade garantida.Experimente o Japão sem sair do lar com nosso delivery!'
+      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   }
 ]
 
