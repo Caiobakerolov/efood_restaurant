@@ -58,24 +58,6 @@ const meals: Dish[] = [
     assessment: '4.9',
     description:
       'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
-  },
-  {
-    id: 7,
-    image: pasta,
-    infos: ['Italiana'],
-    title: 'La Dolce Vita Trattoria',
-    assessment: '4.9',
-    description:
-      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
-  },
-  {
-    id: 8,
-    image: pasta,
-    infos: ['Italiana'],
-    title: 'La Dolce Vita Trattoria',
-    assessment: '4.9',
-    description:
-      'Order now the best of Japanese cuisine in the comfort of your home! Fresh sushi, delicious sashimi, and irresistible hot dishes. Fast delivery, careful packaging, and guaranteed quality. Experience Japan without leaving your home with our delivery service!'
   }
 ]
 
